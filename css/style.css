@@ -1,0 +1,200 @@
+/* styles-index */
+
+
+body {
+    max-width: 1200vw;
+    margin: 0 auto;
+}
+
+/* comienzo header */
+.navegacion ul {
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.navegacion a {
+    color: #19afaf;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navegacion a:hover {
+    color: #caada5;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: overline;
+}
+
+.bg-image {
+    background-image: url(../imagenes/origamimask.jpg);
+    background-size: cover;
+}
+
+/* fin header */
+/* comienzo main */
+
+main p {
+    color: #8edcdc;
+}
+
+.parrafoMain {
+    align-self: center;
+}
+
+
+.cursos {
+    align-self: center;
+    font-size: 1.3rem;
+    line-height: 45px;
+    width: 200px;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+.cursos h2 {
+    font-size: 3rem;
+}
+
+.modalidad {
+    color: #caada5;
+    font-size: 2.5rem;
+}
+
+/* fin main */
+/* comienzo footer */
+
+
+.footerIconInsta {
+    font-size: 2rem;
+    color: #cd1d92;
+}
+
+
+.footerIconFace {
+    font-size: 2rem;
+    color: #1635cc;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+i {
+    transition: 0.5s;
+}
+
+i:hover {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #19afaf;
+}
+
+/* fin footer */
+
+
+/* comienzo styles-cursos*/
+.mainCursos {
+    background-color: #f0dcd7;
+}
+
+.cursosDiv1 p {
+    color: #19afaf;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.parrafoCursos {
+    padding-top: 3rem;
+}
+
+
+.cursosDiv2 h2 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.cursosDiv2 ul li {
+    font-size: larger;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.contactoCursos {
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.contactoCursos a {
+    color: #19afaf;
+    transition: 0.5s;
+}
+
+
+.contactoCursos a:hover {
+    color: #c88d7ddd;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.cursosDiv3 {
+    padding-bottom: 2rem;
+}
+
+
+.video {
+
+    box-shadow: 5px 5px 5px;
+    border-radius: 2rem;
+    transition: height 1s;
+
+}
+
+.video:hover {
+    height: 350px;
+}
+
+
+.iframeCursos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.seccionCursos2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cursosDiv4 h2 {
+    color: #ae7680;
+}
+
+.cursosDiv4 p {
+    color: #000;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+/* media queries */
+
+/* index */
+@media (max-width: 610px) {
+    .slogan {
+        display: none;
+    }
+}
+
+/* cursos */
+
+@media (max-width: 768px) {
+    .mainCursos {
+        width: 1200px;
+
+    }
+}
